@@ -1,0 +1,35 @@
+{
+  "name": "ghmsg",
+  "version": "0.1.0",
+  "description": "Command-line interface to encrypt message using github users public ssh keys",
+  "preferGlobal": true,
+  "main": "ghmsg.js",
+  "bin": {
+    "ghmsg": "ghmsg.js"
+  },
+  "scripts": {
+    "lint": "eslint ghmsg.js lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines" : {
+    "node" : ">=0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joawan/ghmsg"
+  },
+  "keywords": [
+    "github",
+    "encryption"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "github": "^0.2.4"
+  }
+}
