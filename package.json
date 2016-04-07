@@ -11,8 +11,8 @@
     "lint": "eslint ghmsg.js lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines" : {
-    "node" : ">=0.12"
+  "engines": {
+    "node": ">=0.12"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "commander": "^2.9.0",
-    "github": "^0.2.4"
+    "github": "^0.2.4",
+    "ursa": "^0.9.3"
   }
 }
