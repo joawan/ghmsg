@@ -16,7 +16,8 @@ program
   .option('-m, --message <value>', 'Message to send to user')
   .action((user, options) => {
     encrypt(user, options.opts(), (err, res) => {
-      process.stdout.write(res);
+      if (err) process.stderr.write(err);
+      if (res) process.stdout.write(res);
     });
   });
 
@@ -27,7 +28,8 @@ program
   .option('-k, --key [value]', 'Path to private ssh key')
   .action((options) => {
     decrypt(options.opts(), (err, res) => {
-      process.stdout.write(res);
+      if (err) process.stderr.write(err);
+      if (res) process.stdout.write(res);
     });
   });
 
