@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-'use strict'
+'use strict';
 
 const program = require('commander');
 const encrypt = require('./lib/encrypt');
@@ -21,7 +21,7 @@ program
 program
   .command('decrypt')
   .description('Decrypt message using your private ssh key')
-  .option('-m, --message <value>', 'Message to send to user')
+  .option('-m, --message <value>', 'Encrypted message to decrypt')
   .option('-k, --key [value]', 'Path to private ssh key')
   .action((options) => {
     decrypt(options.opts());
