@@ -8,8 +8,8 @@
     "ghmsg": "ghmsg.js"
   },
   "scripts": {
-    "lint": "eslint ghmsg.js lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ghmsg.js lib test",
+    "test": "mocha"
   },
   "engines": {
     "node": ">=0.12"
@@ -26,7 +26,8 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^2.7.0",
-    "eslint-config-airbnb": "^6.2.0"
+    "eslint-config-airbnb": "^6.2.0",
+    "mocha": "^2.4.5"
   },
   "dependencies": {
     "commander": "^2.9.0",

@@ -15,7 +15,9 @@ program
   .description('Encrypt message to user using public ssh key')
   .option('-m, --message <value>', 'Message to send to user')
   .action((user, options) => {
-    encrypt(user, options.opts());
+    encrypt(user, options.opts(), (err, res) => {
+      process.stdout.write(res);
+    });
   });
 
 program
@@ -24,7 +26,9 @@ program
   .option('-m, --message <value>', 'Encrypted message to decrypt')
   .option('-k, --key [value]', 'Path to private ssh key')
   .action((options) => {
-    decrypt(options.opts());
+    decrypt(options.opts(), (err, res) => {
+      process.stdout.write(res);
+    });
   });
 
 program
