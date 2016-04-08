@@ -31,6 +31,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "github": "^0.2.4",
+    "untildify": "^2.1.0",
     "ursa": "^0.9.3"
   }
 }
