@@ -1,0 +1,8 @@
+# Todo
+
+* Tests
+* Error handling
+* Input validation
+* Encrypting messages larger than key size
+* Support for Github enterprise
+* Encrypting files, not only text
