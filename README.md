@@ -1,13 +1,16 @@
 # ghmsg
 
-Command-line interface to encrypt message using github users public ssh keys
+
+[![Build Status](https://travis-ci.org/joawan/ghmsg.svg?branch=master)](https://travis-ci.org/joawan/ghmsg)
+
+    Command-line interface to encrypt message using github users public ssh keys
+
+## Installation
+
+    $ npm install -g ghmsg
 
 ## Usage
 
-Install ghmsg globally with npm
-```bash
-$ npm install -g ghmsg
-```
 
 #### `encrypt`
 
