@@ -1,8 +1,8 @@
 # ghmsg
 
 
-  [![Travis Build][travis-image]][travis-url]
-  [![Test Coverage][coveralls-image]][coveralls-url]
+[![Build Status](https://travis-ci.org/joawan/ghmsg.svg?branch=master)](https://travis-ci.org/joawan/ghmsg)
+[![Coverage Status](https://coveralls.io/repos/github/joawan/ghmsg/badge.svg?branch=master)](https://coveralls.io/github/joawan/ghmsg?branch=master)
 
 Command-line interface to encrypt message using github users public ssh keys
 
