@@ -30,9 +30,9 @@ Decrypt a message with your private key, that matches public key on Github.
 Defaults to `~/.ssh/id_rsa`.
 
 ```bash
-$ ghmsg decrypt -m <message> -k ~/.ssh/id_rsa
+$ ghmsg decrypt -m <message> -k <path to key>
 
-$ ghmsg decrypt joawan -m "NK33pIHyNlAwcJ1...0w=="
+$ ghmsg decrypt -m "NK33pIHyNlAwcJ1...0w=="
 ```
 
 ## Why?
